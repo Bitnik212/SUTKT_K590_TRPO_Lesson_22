@@ -5,8 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Canvas"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title="Контейнер компоновки Canvas" Height="350" Width="525">
+    <!--Canvas - Определяет область, в рамках которой можно явно
+расположить дочерние элементы путем использования координат,
+являющихся относительными к области Canvas.-->
+
+    <Canvas>
+        <TextBlock Canvas.Left="30" Canvas.Top="60"
+                   Height="100" Background="LightCoral"
+                   TextWrapping="WrapWithOverflow" Padding="10">
+            Canvas.Left="30" Canvas.Top="60"
+        </TextBlock>
+        <TextBlock Canvas.Left="160" Canvas.Top="120"
+                   Height="100" Width="200" Background="LightGreen"
+                   TextWrapping="WrapWithOverflow" Padding="10">
+            Canvas.Left="260" Canvas.Top="120"
+        </TextBlock>
+    </Canvas>
 </Window>
