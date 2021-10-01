@@ -5,8 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UniformGrid"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title="Контейнер компоновки UniformGrid" Height="350" Width="525">
+    <!--UniformGrid - Предоставляет способ размещения элементов в
+сетки, при котором все ячейки имеют одинаковый размер.-->
+    <UniformGrid Rows="2" Columns="2">
+        <TextBlock Background="LightGoldenrodYellow" Padding="10"
+                   Margin="10">TextBlock 1</TextBlock>
+        <TextBlock Background="LightBlue" Padding="10"
+                   Margin="10">TextBlock2</TextBlock>
+        <TextBlock Background="LightGray" Padding="10"
+                   Margin="10">TextBlock3</TextBlock>
+        <TextBlock Background="LightSteelBlue" Padding="10"
+                   Margin="10">TextBlock4</TextBlock>
+    </UniformGrid>
 </Window>
