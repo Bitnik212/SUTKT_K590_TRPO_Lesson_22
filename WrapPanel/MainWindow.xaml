@@ -5,8 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WrapPanel"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title="Контейнер компоновки WrapPanel" Height="350" Width="525">
+    <!--WrapPanel - Размещает дочерние элементы последовательно
+слева направо, разбивая содержимое до следующей строки на краю
+содержащего окна.
+ Последующее размещение происходит последовательно сверху вниз
+или справа налево, в зависимости от значения свойства Orientation. -->
+    <WrapPanel Orientation="Vertical">
+        <WrapPanel Orientation="Vertical">
+            <TextBlock Background="LightGoldenrodYellow" Padding="10"
+                       Margin="10">TextBlock 1</TextBlock>
+            <TextBlock Background="LightBlue" Padding="10"
+                       Margin="10">TextBlock2</TextBlock>
+            <TextBlock Background="LightGray" Padding="10"
+                       Margin="10">TextBlock3</TextBlock>
+            <TextBlock Background="LightSteelBlue" Padding="10"
+                       Margin="10">TextBlock4</TextBlock>
+            <TextBlock Background="LightCoral" Padding="10"
+                       Margin="10">TextBlock5</TextBlock>
+            <TextBlock Background="Khaki" Padding="10"
+                       Margin="10">TextBlock6</TextBlock>
+            <TextBlock Background="LightSeaGreen" Padding="10"
+                       Margin="10">TextBlock7</TextBlock>
+        </WrapPanel>
+    </WrapPanel>
 </Window>
