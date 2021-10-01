@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackPanel", "StackPanel\St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockPanel", "DockPanel\DockPanel.csproj", "{A9EAD12E-1C2F-409E-823B-19B7B0EB71CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WrapPanel", "WrapPanel\WrapPanel.csproj", "{7C701095-C871-4053-A1A9-67C3EBBAB805}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{A9EAD12E-1C2F-409E-823B-19B7B0EB71CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9EAD12E-1C2F-409E-823B-19B7B0EB71CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9EAD12E-1C2F-409E-823B-19B7B0EB71CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C701095-C871-4053-A1A9-67C3EBBAB805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C701095-C871-4053-A1A9-67C3EBBAB805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C701095-C871-4053-A1A9-67C3EBBAB805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C701095-C871-4053-A1A9-67C3EBBAB805}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
