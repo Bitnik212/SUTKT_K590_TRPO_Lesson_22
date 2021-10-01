@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InkCanvas", "InkCanvas\InkC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridSplitter", "GridSplitter\GridSplitter.csproj", "{75F8BB5F-BE5F-4638-BDBA-E38E9B5B8629}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variant_1", "Variant_1\Variant_1.csproj", "{22E24063-7393-4F45-B1C8-F3DA6CBB982A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{75F8BB5F-BE5F-4638-BDBA-E38E9B5B8629}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75F8BB5F-BE5F-4638-BDBA-E38E9B5B8629}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75F8BB5F-BE5F-4638-BDBA-E38E9B5B8629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22E24063-7393-4F45-B1C8-F3DA6CBB982A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22E24063-7393-4F45-B1C8-F3DA6CBB982A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22E24063-7393-4F45-B1C8-F3DA6CBB982A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22E24063-7393-4F45-B1C8-F3DA6CBB982A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
