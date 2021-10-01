@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grid", "Grid\Grid.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridSize", "GridSize\GridSize.csproj", "{21B16022-951F-4DFD-9D16-9E2C5E7FAAB3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackPanel", "StackPanel\StackPanel.csproj", "{C823D33E-82C7-409A-B8B4-A855CD481AD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{21B16022-951F-4DFD-9D16-9E2C5E7FAAB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21B16022-951F-4DFD-9D16-9E2C5E7FAAB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21B16022-951F-4DFD-9D16-9E2C5E7FAAB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C823D33E-82C7-409A-B8B4-A855CD481AD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C823D33E-82C7-409A-B8B4-A855CD481AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C823D33E-82C7-409A-B8B4-A855CD481AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C823D33E-82C7-409A-B8B4-A855CD481AD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
