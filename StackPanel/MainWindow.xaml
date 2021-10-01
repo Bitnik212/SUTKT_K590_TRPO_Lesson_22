@@ -6,7 +6,18 @@
         xmlns:local="clr-namespace:StackPanel"
         mc:Ignorable="d"
         Title="Контейнер компоновки StackPanel" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+    <!--StackPanel - Располагает дочерние элементы в одну строку,
+которую можно ориентировать по горизонтали или по вертикали -->
+    <StackPanel Orientation="Horizontal">
+        <TextBlock Background="LightGoldenrodYellow" Padding="10"
+                   Margin="10">TextBlock 1</TextBlock>
+        <TextBlock Background="LightBlue" Padding="10"
+                   Margin="10">TextBlock2</TextBlock>
+        <TextBlock Background="LightGray" Padding="10"
+                   Margin="10">TextBlock3</TextBlock>
+        <TextBlock Background="LightSteelBlue" Padding="10"
+                   Margin="10">TextBlock 4</TextBlock>
+        <TextBlock Background="LightCoral" Padding="10"
+                   Margin="10">TextBlock 5</TextBlock>
+    </StackPanel>
 </Window>
