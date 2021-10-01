@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WrapPanel", "WrapPanel\Wrap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniformGrid", "UniformGrid\UniformGrid.csproj", "{F3810417-0039-40C7-B78E-00713A3CC20D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canvas", "Canvas\Canvas.csproj", "{A15CA018-2C19-45DB-985D-BDA8176EC4E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{F3810417-0039-40C7-B78E-00713A3CC20D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3810417-0039-40C7-B78E-00713A3CC20D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3810417-0039-40C7-B78E-00713A3CC20D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A15CA018-2C19-45DB-985D-BDA8176EC4E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A15CA018-2C19-45DB-985D-BDA8176EC4E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A15CA018-2C19-45DB-985D-BDA8176EC4E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A15CA018-2C19-45DB-985D-BDA8176EC4E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
