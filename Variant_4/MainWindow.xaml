@@ -5,8 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Variant_4"
         mc:Ignorable="d"
-        Title="Вариант 4" Height="350" Width="525">
+        Title="Вариант 4" Height="350" Width="525" Loaded="Window_Loaded">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="22"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Margin="5" Orientation="Horizontal">
+            <TextBlock Margin="5" Text="Режим редактирования: " />
+            <ComboBox Name="lstEditingMode"
+                      VerticalAlignment="Center"
+                      HorizontalAlignment="Stretch" 
+                      Margin="0,0,10,0" />
+        </StackPanel>
+        <InkCanvas Name="inkCanvas"
+                   Grid.Row="1"
+                   Background="Pink"
+                   EditingMode="{Binding ElementName=lstEditingMode,
+Path=SelectedItem}"
+                   Gesture="inkCanvas_Gesture">
+        </InkCanvas>
         
     </Grid>
 </Window>
